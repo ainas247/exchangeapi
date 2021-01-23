@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchage Rate</title>
+    <style>
+        body{
+            width: 100%;
+            background-color: crimson;
+        }
+        #exchange{
+            width: 95%;
+            text-align:center ;
+        }
+
+          #exchange input{
+            width: 200px;
+            height: 20px;
+            font-size: 15px;
+            padding: 5px;
+            border: none;
+            border: solid 1px rgb(202, 198, 198);
+        }
+
+        #exchange select{
+            width: 150px;
+            height: 33px;
+            font-size: 15px;
+            padding: 5px;
+             border: none;
+            border: solid 1px rgb(202, 198, 198);
+
+        }
+        #equal{
+            color: crimson;
+            font-size: 30px;
+            font-weight: bold;
+            text-align:left;
+            width: 365px;
+            margin: auto;
+        }
+
+        #seleto{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="exchange">
+            <h1 style="color: white;">Exchange Rate</h1>
+        <div id="seleto">
+            <input type="number" class="input" placeholder="1">
+            <select name="" id="">
+                <!-- <option value="currency">Select Currency</option> -->
+          </select>
+        </div>
+        <div>
+                <input type="number" class="input" placeholder="1">
+                <select name="" id="">
+                    <!-- <option value="currency">Select Currency</option> -->
+                </select>
+        </div>
+        <div>
+            <p id="rere"></p>
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
